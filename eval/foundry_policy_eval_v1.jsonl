@@ -1,0 +1,10 @@
+{"query": "How many paid annual leave days do full-time employees receive?", "ground_truth": "Full-time employees receive 17 paid annual leave days per calendar year."}
+{"query": "Which days may employees work remotely?", "ground_truth": "Employees may work remotely every Wednesday and Friday."}
+{"query": "How long must new employees wait before becoming eligible for hybrid work?", "ground_truth": "New employees become eligible for hybrid work after completing 14 calendar days."}
+{"query": "When does an equipment request require Operations Manager approval?", "ground_truth": "Equipment requests above PHP 25,000 require approval from the Operations Manager."}
+{"query": "How quickly must a lost company device be reported?", "ground_truth": "A lost company device must be reported to the IT Security Desk within 30 minutes of discovering the loss."}
+{"query": "Can confidential client data be submitted to unapproved public AI services?", "ground_truth": "No. Confidential client data must not be submitted to unapproved public AI services."}
+{"query": "Can AI-generated output be sent to a customer without human review?", "ground_truth": "No. AI-generated outputs used in customer deliverables must be reviewed by a human employee before release."}
+{"query": "How quickly must a Priority-1 customer incident be acknowledged?", "ground_truth": "Priority-1 customer incidents must be acknowledged within 15 minutes."}
+{"query": "What is the internal handbook verification code?", "ground_truth": "ORBIT-MANGO-742"}
+{"query": "How much Christmas bonus does every employee receive?", "ground_truth": "The handbook does not provide information about a Christmas bonus, so the agent should say it does not have enough information in the company policy."}
