@@ -4,6 +4,36 @@ A Microsoft Foundry (Azure AI Foundry) practice project: a command-line chat cli
 Azure AI Foundry agent grounded on a fictional employee handbook, so answers can be verified against
 known facts instead of general knowledge.
 
+## System architecture
+
+```mermaid
+flowchart LR
+    User[User] -->|Policy question| CLI[Python CLI client\nchat_with_agent.py]
+
+    subgraph Local[Local development environment]
+        Env[.env\nignored by Git] --> CLI
+        CLI --> Credential[DefaultAzureCredential\nMicrosoft Entra ID]
+    end
+
+    subgraph Foundry[Azure AI Foundry]
+        Project[Foundry project endpoint]
+        Agent[Deployed company-policy agent]
+        Knowledge[Fictional employee handbook\ngrounding knowledge]
+
+        Project --> Agent
+        Knowledge --> Agent
+    end
+
+    Credential -->|Authenticate| Project
+    CLI -->|Conversations and Responses API| Project
+    Agent -->|Grounded policy answer| CLI
+```
+
+The Python client loads only the project endpoint and agent name from a local `.env` file, then uses
+`DefaultAzureCredential` for passwordless Azure authentication. The deployed Foundry agent should be
+configured with the fictional handbook in `docs/` as its grounding knowledge, so it can answer policy
+questions from that source and acknowledge when the handbook does not contain the answer.
+
 ## Layout
 
 ```
