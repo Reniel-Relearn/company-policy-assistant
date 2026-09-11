@@ -1,0 +1,34 @@
+FOUNDRYLAB SOLUTIONS — EMPLOYEE POLICY HANDBOOK
+Training document for Microsoft Foundry practice only.
+This is fictional data and does not represent any real company.
+
+1. OFFICE SCHEDULE
+Standard working hours are 9:15 AM to 6:15 PM, Monday through Friday.
+
+2. HYBRID WORK POLICY
+Employees may work remotely every Wednesday and Friday.
+New employees become eligible for hybrid work after completing 14 calendar days.
+
+3. EQUIPMENT REQUESTS
+Laptop, monitor, and accessory requests must be submitted through the internal IT request system.
+Requests above PHP 25,000 require approval from the Operations Manager.
+
+4. ANNUAL LEAVE
+Full-time employees receive 17 paid annual leave days per calendar year.
+Leave requests of three consecutive working days or more should be submitted at least 10 calendar days in advance.
+
+5. SECURITY
+Employees must report a lost company device to the IT Security Desk within 30 minutes of discovering the loss.
+Company passwords must not be shared through email, chat, or personal note-taking applications.
+
+6. AI USAGE POLICY
+Employees may use approved generative AI tools for drafting, research, coding assistance, and summarization.
+Confidential client data must not be submitted to unapproved public AI services.
+AI-generated outputs used in customer deliverables must be reviewed by a human employee before release.
+
+7. SUPPORT ESCALATION
+Priority-1 customer incidents must be acknowledged within 15 minutes and escalated to the on-call Solutions Engineer.
+
+8. UNIQUE VERIFICATION FACT
+The internal code phrase for this training handbook is ORBIT-MANGO-742.
+This code exists only so the learner can verify that the AI agent retrieved information from this document.
