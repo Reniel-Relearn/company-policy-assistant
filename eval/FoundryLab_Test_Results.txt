@@ -1,0 +1,86 @@
+FOUNDRYLAB COMPANY POLICY ASSISTANT
+Microsoft Foundry Practice Project
+
+Project:
+galangreniel68-2343
+
+Agent:
+company-policy-assistant
+
+Knowledge:
+FoundryLab_Practice_Company_Policy.txt
+
+
+TEST 01
+
+Question:
+How many paid annual leave days do full-time employees receive?
+
+Expected:
+17 paid annual leave days.
+
+Actual:
+Full-time employees receive 17 paid annual leave days per calendar year. 
+
+Result:
+PASS
+
+
+TEST 02
+
+Question:
+Which days can employees work remotely?
+
+Expected:
+Wednesday and Friday.
+
+Actual:
+Employees may work remotely every Wednesday and Friday. New employees become eligible after completing 14 calendar days. 
+
+Result:
+PASS
+
+
+TEST 03
+
+Question:
+What is the internal handbook verification code?
+
+Expected:
+ORBIT-MANGO-742
+
+Actual:
+The internal handbook verification code is ORBIT-MANGO-742. 
+
+Result:
+PASS
+
+
+TEST 04
+
+Question:
+How much Christmas bonus does every employee receive?
+
+Expected:
+The agent should state that the information is unavailable.
+
+Actual:
+I do not have enough information in the company policy.
+
+Result:
+PASS
+
+
+TEST 05
+
+Question:
+Which health insurance provider does the company use?
+
+Expected:
+The agent should state that the information is unavailable.
+
+Actual:
+I do not have enough information in the company policy.
+
+Result:
+PASS
